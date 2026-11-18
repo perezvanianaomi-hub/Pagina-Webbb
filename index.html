@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina de la materia Desarrollo de páginas web (HTML5 y CSS) de Vania Naomi.">
+    <title>Vania Naomi | Mi primera pagina web</title>
+    <link rel="icon" href="imagen/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <a class="salto" href="#contenido">Saltar al contenido</a>
+
+    <header class="hero" id="inicio">
+        <span class="etiqueta">Ingles V · English</span>
+        <h1>Mi primera pagina web</h1>
+        <p>Welcome! Esta pagina es sobre la materia de Ingles: vocabulario, gramatica, tablas, imagenes, video y audio.</p>
+        <a class="boton" href="#listas">Ver vocabulario</a>
+        <a class="boton" href="#tablas">Ver tablas</a>
+        <a class="boton" href="#formulario">Ir al formulario</a>
+    </header>
+
+    <nav class="navegacion" aria-label="Navegacion principal">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#imagenes">Imagenes</a></li>
+            <li><a href="#hipervinculos">Hipervinculos</a></li>
+            <li><a href="#listas">Listas</a></li>
+            <li><a href="#tablas">Tablas</a></li>
+            <li><a href="#multimedia">Video y audio</a></li>
+            <li><a href="#formulario">Formulario</a></li>
+        </ul>
+    </nav>
+
+    <main id="contenido" class="contenedor">
+
+        <section class="tarjeta" id="sobre">
+            <h2>Sobre la materia de Ingles</h2>
+            <p>En la materia de <strong>Ingles</strong> aprendo a comunicarme en otro idioma. Esta pagina reune
+                mi vocabulario, mis tablas de gramatica, imagenes y material de audio y video.</p>
+            <p lang="en">English is used all over the world: in school, at work, in music, movies and the internet.</p>
+            <div class="datos">
+                <div class="dato"><strong>Listening</strong>Escuchar</div>
+                <div class="dato"><strong>Speaking</strong>Hablar</div>
+                <div class="dato"><strong>Reading</strong>Leer</div>
+                <div class="dato"><strong>Writing</strong>Escribir</div>
+            </div>
+        </section>
+
+        <section class="tarjeta" id="imagenes">
+            <h2>Imagenes</h2>
+            
+            <img src="WhatsApp Image 2026-10-16 at 11.18.41 PM.jpeg" alt="es una imagen" width="200">
+
+            <h3>English gallery</h3>
+            <div class="galeria">
+                <figure>
+                    <img src="imagen/hello.svg" alt="Dos globos de dialogo con las frases Hello y How are you" width="600" height="600" loading="lazy">
+                    <figcaption>Greetings</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagen/abc.svg" alt="Cubos con las letras A, B y C del alfabeto en ingles" width="600" height="600" loading="lazy">
+                    <figcaption>The alphabet</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagen/books.svg" alt="Libro abierto sobre libros de gramatica, vocabulario y diccionario" width="600" height="600" loading="lazy">
+                    <figcaption>Study materials</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="tarjeta" id="hipervinculos">
+            <h2>Hipervinculos</h2>
+            <div class="enlaces">
+                <a href="https://learnenglish.britishcouncil.org" target="_blank" rel="noopener noreferrer">British Council LearnEnglish <small>Lecciones, juegos y practica gratis (externo)</small></a>
+                <a href="https://www.bbc.co.uk/learningenglish" target="_blank" rel="noopener noreferrer">BBC Learning English <small>Videos, audios y gramatica (externo)</small></a>
+                <a href="https://www.duolingo.com/course/en/es/Learn-English" target="_blank" rel="noopener noreferrer">Duolingo <small>Aprende ingles jugando (externo)</small></a>
+                <a href="https://dictionary.cambridge.org/es/" target="_blank" rel="noopener noreferrer">Cambridge Dictionary <small>Diccionario ingles-espanol con audio (externo)</small></a>
+                <a href="https://www.youtube.com/@EnglishwithJennifer" target="_blank" rel="noopener noreferrer">English with Jennifer <small>Canal de YouTube con clases (externo)</small></a>
+                <a href="https://www.vocabulary.com" target="_blank" rel="noopener noreferrer">Vocabulary.com <small>Amplia tu vocabulario (externo)</small></a>
+            </div>
+        </section>
+
+        <section class="tarjeta" id="listas">
+            <h2>Listas / Lists</h2>
+            <div class="rejilla">
+                <article>
+                    <h3>Software list</h3>
+                    <ol>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                    </ol>
+                </article>
+                <article>
+                    <h3>Operating systems</h3>
+                    <ul>
+                        <li>Windows</li>
+                        <li>Android</li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Seasons of the year</h3>
+                    <ol>
+                        <li>Spring</li>
+                        <li>Summer</li>
+                        <li>Autumn</li>
+                        <li>Winter</li>
+                    </ol>
+                </article>
+                <article>
+                    <h3>Useful phrases</h3>
+                    <dl>
+                        <dt>Good morning</dt>
+                        <dd>Buenos dias</dd>
+                        <dt>Thank you</dt>
+                        <dd>Gracias</dd>
+                        <dt>See you later</dt>
+                        <dd>Hasta luego</dd>
+                    </dl>
+                </article>
+                <article>
+                    <h3>Definitions</h3>
+                    <dl>
+                        <dt>HTML</dt>
+                        <dd>HyperText Markup Language</dd>
+                        <dt>CSS</dt>
+                        <dd>Cascading Style Sheets</dd>
+                    </dl>
+                </article>
+                <article>
+                    <h3>Months of the year</h3>
+                    <ul class="meses">
+                        <li>January</li>
+                        <li>February</li>
+                        <li>March</li>
+                        <li>April</li>
+                        <li>May</li>
+                        <li>June</li>
+                        <li>July</li>
+                        <li>August</li>
+                        <li>September</li>
+                        <li>October</li>
+                        <li>November</li>
+                        <li>December</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="tarjeta" id="tablas">
+            <h2>Tablas / Tables</h2>
+            <h3>Verb "to be"</h3>
+            <div class="tabla-scroll">
+                <table>
+                    <caption>Present and past of the verb to be</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Subject</th>
+                            <th scope="col">Present</th>
+                            <th scope="col">Past</th>
+                            <th scope="col">Espanol</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">I</th>
+                            <td>am</td>
+                            <td>was</td>
+                            <td>yo soy / estoy</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">You</th>
+                            <td>are</td>
+                            <td>were</td>
+                            <td>tu eres / estas</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">He / She / It</th>
+                            <td>is</td>
+                            <td>was</td>
+                            <td>el / ella es / esta</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">We</th>
+                            <td>are</td>
+                            <td>were</td>
+                            <td>nosotros somos / estamos</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">They</th>
+                            <td>are</td>
+                            <td>were</td>
+                            <td>ellos son / estan</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h3>Verb tenses</h3>
+            <div class="tabla-scroll">
+                <table>
+                    <caption>Four basic tenses</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Tense</th>
+                            <th scope="col">Structure</th>
+                            <th scope="col">Example</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Simple present</th>
+                            <td>subject + verb (+ s)</td>
+                            <td>She studies English every day.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Simple past</th>
+                            <td>subject + verb in past</td>
+                            <td>We watched a movie yesterday.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Simple future</th>
+                            <td>subject + will + verb</td>
+                            <td>I will travel next summer.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Present continuous</th>
+                            <td>subject + am/is/are + verb-ing</td>
+                            <td>They are playing soccer now.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h3>Irregular verbs</h3>
+            <div class="tabla-scroll">
+                <table>
+                    <caption>Common irregular verbs</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Base form</th>
+                            <th scope="col">Simple past</th>
+                            <th scope="col">Past participle</th>
+                            <th scope="col">Espanol</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">be</th>
+                            <td>was / were</td>
+                            <td>been</td>
+                            <td>ser / estar</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">go</th>
+                            <td>went</td>
+                            <td>gone</td>
+                            <td>ir</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">have</th>
+                            <td>had</td>
+                            <td>had</td>
+                            <td>tener</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">do</th>
+                            <td>did</td>
+                            <td>done</td>
+                            <td>hacer</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">see</th>
+                            <td>saw</td>
+                            <td>seen</td>
+                            <td>ver</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">write</th>
+                            <td>wrote</td>
+                            <td>written</td>
+                            <td>escribir</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h3>Days of the week</h3>
+            <div class="tabla-scroll">
+                <table>
+                    <caption>Days of the week</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">English</th>
+                            <th scope="col">Espanol</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Monday</th>
+                            <td>Lunes</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Tuesday</th>
+                            <td>Martes</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Wednesday</th>
+                            <td>Miercoles</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Thursday</th>
+                            <td>Jueves</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Friday</th>
+                            <td>Viernes</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Saturday</th>
+                            <td>Sabado</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Sunday</th>
+                            <td>Domingo</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h3>Web technologies</h3>
+            <div class="tabla-scroll">
+                <table>
+                    <caption>Differences between PHP, Apache and IIS + ASP</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Features</th>
+                            <th scope="col">PHP</th>
+                            <th scope="col">Apache</th>
+                            <th scope="col">IIS + ASP</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Server</th>
+                            <td>Can run on Apache</td>
+                            <td>Apache Tomcat + NetBeans</td>
+                            <td>IIS</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Language</th>
+                            <td>PHP</td>
+                            <td>Java</td>
+                            <td>VBScript</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+                </section>
+
+        <section class="tarjeta" id="multimedia">
+            <h2>Video y audio</h2>
+            <div class="multimedia">
+                <div>
+                    <h3>My video</h3>
+                    <div class="video-ingles">
+                        <video controls preload="metadata">
+                            <source src="VideoIngles.mp4" type="video/mp4">
+                            Tu navegador no soporta la etiqueta del video.
+                        </video>
+                    </div>
+                </div>
+                <div>
+                    <h3>My audio</h3>
+                    <audio controls preload="none">
+                        <source src="AudioIngles.mp3" type="audio/mpeg">
+                        Tu navegador no soporta el elemento de audio.
+                    </audio>
+                </div>
+            </div>
+        </section>
+
+        <section class="tarjeta" id="formulario">
+            <h2>Formulario</h2>
+            <div id="alerta" class="alerta" role="alert" aria-live="assertive" hidden></div>
+            <form id="form-datos" action="resultado.html" method="get" novalidate>
+                <fieldset>
+                    <legend>Datos personales</legend>
+
+                    <div class="campo">
+                        <label for="nombre">Escribe tu nombre:</label>
+                        <input type="text" name="nombre" id="nombre" maxlength="40" autocomplete="given-name" required>
+                    </div>
+                    <div class="campo">
+                        <label for="apellido">Escribe tus apellidos:</label>
+                        <input type="text" name="apellido" id="apellido" maxlength="60" autocomplete="family-name" required>
+                    </div>
+                    <div class="campo">
+                        <label for="edad">Escribe tu edad:</label>
+                        <input type="number" name="edad" id="edad" min="1" max="120" required>
+                    </div>
+                    <div class="campo">
+                        <label for="correo">Correo electrónico:</label>
+                        <input type="email" name="correo" id="correo" autocomplete="email" required>
+                    </div>
+                    <div class="campo">
+                        <label for="color">Selecciona tu color favorito:</label>
+                        <input type="color" name="color" id="color" value="#a855f7">
+                    </div>
+                    <div class="campo">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea name="mensaje" id="mensaje" rows="4" maxlength="300"></textarea>
+                    </div>
+
+                    <div class="botones">
+                        <button type="submit">Enviar datos</button>
+                        <button type="reset" class="secundario">Limpiar</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="pie">
+        <p>Elaboró: Vania Naomi</p>
+        <p>Proyecto educativo · Desarrollo de páginas web (HTML5 y CSS)</p>
+    </footer>
+
+    <a class="subir" href="#inicio" aria-label="Volver arriba">↑</a>
+</body>
+</html>

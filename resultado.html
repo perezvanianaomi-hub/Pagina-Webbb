@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos recibidos | Vania Naomi</title>
+    <link rel="icon" href="imagen/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/resultado.js" defer></script>
+</head>
+<body>
+    <header class="hero">
+        <h1>Datos recibidos</h1>
+        <p>Estos son los datos que enviaste con el formulario (método GET).</p>
+    </header>
+
+    <main class="contenedor">
+        <section class="tarjeta">
+            <h2>Resultado del formulario</h2>
+            <div id="alerta" class="alerta" role="alert" hidden></div>
+            <p>Parámetros en la URL: <code id="url-actual"></code></p>
+            <div class="tabla-scroll">
+                <table>
+                    <caption>Datos enviados</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Campo</th>
+                            <th scope="col">Valor</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cuerpo-datos"></tbody>
+                </table>
+            </div>
+            <p><a class="boton" href="index.html#formulario">Volver al formulario</a></p>
+        </section>
+    </main>
+
+    <footer class="pie">
+        <p>Elaboró: Vania Naomi</p>
+    </footer>
+</body>
+</html>
